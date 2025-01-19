@@ -1,0 +1,79 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box; /* Includes padding and border in element size */
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.heroContainer {
+    display: flex;
+    width: 90vw;
+    background: linear-gradient(to bottom, #A093DA, #FFFFFF);
+    border-radius: 15px;
+    color: #0c0c0c;
+}
+
+.heroLinks {
+    flex: 1;
+}
+
+.heroLinksInner {
+    width: 100%; 
+    padding-top: 10%; 
+    padding-left: 15%; 
+    padding-right: 12%; 
+}
+.heroTitle {
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.heroTextContainer {
+    padding-right: 15%;
+}
+.heroText {
+    font-size: 20px;
+}
+.getTheAppContainer {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.getTheApp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    width: 160px;
+    height: 40px;
+    margin-right: 25px;
+}
+.qrCode {
+    width: 15%;
+    max-width: 80px;
+    min-width: 60px;
+    height: auto;
+    border-radius: 9px;
+}
+.heroRechts {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.heroImage {
+    max-width: 480px; 
+    min-width: 200px; 
+    height: auto;
+    object-fit: cover;
+    flex-shrink: 0; 
+    margin-top: 60px;
+  }
+  

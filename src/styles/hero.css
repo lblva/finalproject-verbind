@@ -1,17 +1,10 @@
-*,
-*::before,
-*::after {
-    box-sizing: border-box; /* Includes padding and border in element size */
-}
-
 body {
-    display: flex;
-    justify-content: center;
     margin: 0;
 }
 
-.heroContainer {
+.heroContainer{
     display: flex;
+    margin: 0 auto;
     width: 90vw;
     background: linear-gradient(to bottom, #A093DA, #FFFFFF);
     border-radius: 15px;

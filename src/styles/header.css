@@ -1,0 +1,17 @@
+header{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    color: #8D7FC9;
+}
+p{
+    font-size: 22px;
+    font-weight: 500;
+}
+.logo{
+    max-width: 80px;
+    height: auto;
+}

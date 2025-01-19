@@ -1,0 +1,65 @@
+.featuresContainer{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.outerContainer{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 15px;
+}
+
+.innerContainer{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 70px;
+    display: flex;
+}
+
+
+.button-container {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.active{
+    background-color: #8D7FC9;
+    color: white;
+}
+
+.inactive{
+    background-color: white;
+    color: black;
+}
+
+.feature-info {
+  margin-top: 20px;
+}
+
+.image{
+    width: 40%;
+    border-radius: 5px;
+}
+
+.textContainer{
+    width: 40%;
+    padding-left: 70px;
+}
+
+.title{
+    font-size: 32px;
+}
+
+.description{
+    font-size: 20px;
+    font-weight: 400;
+}

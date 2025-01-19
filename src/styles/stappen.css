@@ -1,0 +1,55 @@
+.container{
+    margin: 0 auto;
+    color: black;
+    width: 83vw;
+    margin-bottom: 200px;
+}
+.mainTitle{
+    text-align: center;
+    font-size: 2em;
+    margin: 1em 0;
+}
+.cardsContainer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.card{
+    background-color: white;
+    margin: 1em 0;
+    padding: 2.5em;
+    border-radius: 15px;
+    width: 32%;
+    box-sizing: border-box;
+}
+.card:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1); /* More prominent shadow on hover */
+}
+
+.stappenImage{
+    width: 70px;
+    object-fit: cover;
+}
+
+.cardTitle{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.cardText{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+@media (max-width: 768px) {
+    .cardsContainer {
+        flex-direction: column; 
+        gap: 2em; 
+    }
+
+    .card {
+        width: 90%; 
+        margin: 0 auto;
+    }
+}

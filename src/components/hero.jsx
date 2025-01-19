@@ -11,7 +11,9 @@ function Hero() {
             <p className='heroTitle'>Vind sneller werk met Verbind
             de brug tussen ambitie en succes</p>
             <div className='heroTextContainer'>
-              <p className='heroText'>Je zoektocht naar werk begint hier.<br/> Verbind helpt je sneller werk te vinden door je te verbinden met vacatures die perfect bij jouw passen.  Vind de perfecte match met slechts één swipe.</p>
+              <p className='heroText'>Je zoektocht naar werk begint hier.<br/> Verbind helpt je sneller 
+              werk te vinden door je te verbinden met vacatures die perfect bij jouw passen.  
+              Vind de perfecte match met slechts één swipe.</p>
              </div>
             <div className='getTheAppContainer'>
              <div className='getTheApp'>

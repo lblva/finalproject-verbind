@@ -1,23 +1,16 @@
-import Header from './components/header'
-import Hero from './components/hero'
-import Features from './components/features'
-import Stappen from './components/stappen'
-import WhyUs from './components/whyus'
-import Footer from './components/footer'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './pages/home';
+import About from './pages/aboutMe';
 
-
-function App() {  
-
+function App() {
   return (
-    <>
-      <Header />
-      <Hero />
-      <Features />
-      <Stappen />
-      <WhyUs />
-      <Footer />
-    </>
-  )
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+    </Router>
+  );
 }
 
-export default App
+export default App;

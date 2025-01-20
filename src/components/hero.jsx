@@ -9,7 +9,7 @@ function Hero() {
         <div className="heroLinks">
           <div className='heroLinksInner'>
             <div className='heroTextContainer'>
-            <p className='heroTitle'>Vind sneller werk met Verbind
+            <p className='heroTitle'>Vind sneller werk met Verbind<br/>
             de brug tussen ambitie en succes</p>
             
               <p className='heroText'>Je zoektocht naar werk begint hier.<br/> Verbind helpt je sneller 

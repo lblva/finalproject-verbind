@@ -1,10 +1,14 @@
 import React from 'react';
+import Header from '../components/header';
+import Me from '../components/me';
+import Footer from '../components/footer';
 
 function AboutMe() {
   return (
     <div>
-      <h1>About me</h1>
-      <p>This is the About page.</p>
+      <Header />
+      <Me />
+      <Footer />
     </div>
   );
 }

@@ -3,6 +3,8 @@ import Hero from './components/hero'
 import Features from './components/features'
 import Stappen from './components/stappen'
 import WhyUs from './components/whyus'
+import Footer from './components/footer'
+
 
 function App() {  
 
@@ -13,6 +15,7 @@ function App() {
       <Features />
       <Stappen />
       <WhyUs />
+      <Footer />
     </>
   )
 }

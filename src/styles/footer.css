@@ -1,0 +1,55 @@
+.footerContainer {
+    height: 200px;
+    width: 100%;
+    background-color: #f8f9fa;
+    border-top: 1px solid #e9ecef;
+    color: black;
+}
+
+.footerInnerContainer{
+    padding-top: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.footerTopContainer{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.footerBottomContainer{
+    display: flex;
+}
+
+.footerLeftContainer{
+    width: 60%;
+}
+
+.footerRightContainer{
+    margin-left: 5%;
+}
+
+.footerRightLegalContainer{
+    margin-left: 5%;
+    display: flex;
+    gap: 50px;
+}
+
+.footerText{
+    font-size: 16px;
+    color: black;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.socialIcons {
+    display: flex;
+    gap: 15px; /* Adds space between icons */
+    margin-top: 15px;
+  }
+  
+  .socialIcon {
+    width: 20px;
+    height: auto;
+    cursor: pointer;
+  }

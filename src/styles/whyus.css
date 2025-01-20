@@ -1,0 +1,63 @@
+.whyusContainer{
+    width: 83vw;
+    margin: 0 auto;
+    margin-bottom: 170px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 15px;
+}
+
+.whyusInnerContainer{   
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 70px;
+    display: flex;
+    
+}
+
+.whyusRightContainer{
+    width: 48%;
+    padding-left: 70px;
+}
+
+.whyusImage{
+    width: 40%;
+    height: auto;
+    border-radius: 5px;
+    object-fit: cover;
+    flex-shrink: 0; 
+}
+
+.whyusTitle{
+    font-size: 32px;
+}
+
+.whyusSubtitleContainer{
+    display: flex;
+    gap: 20px;
+}
+.whyusSubtitle{
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.whyusText{
+    margin: 0;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 46px;
+    margin-bottom: 25px;
+}
+
+.whyusIcon{
+    width: 25px;
+    height: auto;
+    object-fit: cover;
+}
+
+.whyusIconRectangle{
+    height: 22px;
+    width: auto;
+    object-fit: cover;
+}
